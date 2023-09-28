@@ -1,0 +1,27 @@
+/*tout aligner au centre des pages*/
+.tout { 
+    text-align: center;
+}
+/*chander l'écriture du mot mage noir*/
+p:first-child i {
+    color: blue;
+  }
+/*écrire le titre lucky block avec un effet*/
+ .Luckyblock {
+    text-shadow: 2px 2px 5px blueviolet;
+  }
+/*une bordure autour des la phrase appuyer dans lucky block*/
+  .appuyer {
+    position: static;
+    border: 3px solid #8521ad;
+  }
+/*phrase cacher sauf si on appuye sur le titre de ne pas appuyer*/
+  .chatgigachad {
+    display: none;
+    background-color: white;
+    padding: 20px;
+  }
+  /*le carrer autour de la phrase cacher dite si dessus*/
+  div:hover .chatgigachad {
+    display: block;
+  }
